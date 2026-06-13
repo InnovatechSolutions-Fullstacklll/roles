@@ -1,6 +1,7 @@
 package com.Inovatech.ms_roles.entity;
 
 
+import com.Inovatech.ms_roles.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -24,5 +25,5 @@ public class UserRoleEntity {
     private String email;
 
     @Enumerated(EnumType.STRING)
-    private Role role;
+    private UserRole role;
 }
