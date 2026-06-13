@@ -1,4 +1,4 @@
-package com.roles.roles;
+package com.Inovatech.ms_roles;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

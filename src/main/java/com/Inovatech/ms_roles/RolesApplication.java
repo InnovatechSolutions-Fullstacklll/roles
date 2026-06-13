@@ -1,4 +1,4 @@
-package com.roles.roles;
+package com.Inovatech.ms_roles;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
