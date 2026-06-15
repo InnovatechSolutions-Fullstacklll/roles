@@ -1,14 +1,11 @@
 package com.Inovatech.ms_roles.entity;
 
-
 import com.Inovatech.ms_roles.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import javax.management.relation.Role;
 
 @Entity
 @Table(name="user_roles")

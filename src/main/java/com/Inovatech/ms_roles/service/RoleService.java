@@ -8,7 +8,6 @@ import com.Inovatech.ms_roles.enums.UserRole;
 import com.Inovatech.ms_roles.repository.RoleRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import com.Inovatech.ms_roles.enums.UserRole;
 
 import java.util.List;
 

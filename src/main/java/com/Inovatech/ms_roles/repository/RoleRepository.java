@@ -7,7 +7,8 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 @Repository
-public class RoleRepository extends JpaRepository<UserRoleEntity, Long> {
+public interface RoleRepository extends JpaRepository<UserRoleEntity, Long> {
 
-    public Optional<UserRoleEntity> findByEmail(String email);
+    Optional<UserRoleEntity> findByEmail(String email);
+
 }
